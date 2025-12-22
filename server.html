@@ -1,0 +1,70 @@
+<!-- FILE: server.html -->
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>伺服器設定 — 真。黑帝斯天堂</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      div.block{
+        border: 1px solid red;
+        width: 300px;
+        height: 300px;
+        background-image: url("./images/back.jpg");
+        background-repeat: no-repeat;
+        /* background-size: 80%; */
+        /* background-size: 100% 50%; */
+        /* background-size: 100px; */
+
+        /* 背景圖的寬或高其中一個會是 100%，
+           目的要能讓背景圖在元素內完整出現 */
+        /* background-size: contain; */
+
+        /*背景圖的寬或高其中一個會是 100%,
+          目的要能讓背景圖佔滿整個元素。*/
+        background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>真。黑帝斯天堂</h1>
+    </div>
+    <nav class="nav">
+      <a href="index.html">遊戲首頁</a>
+      <a href="server.html" class="active">伺服器設定</a>
+      <a href="troubleshoot.html">問題排除</a>
+      <a href="beginner.html">新手簡易攻略</a>
+      <!-- ... other links omitted for brevity in nav (they are present in actual site files) -->
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>伺服器設定與推薦</h2>
+                              <p>
+    <div class="block">
+    </div>
+<font color="Red"><strong>每天08:00,16:00,24:00重開</strong></font><br />
+<strong>經驗倍率</strong><br />
+<strong>RateXp = 100.0</strong><br />
+<strong>#正義倍率</strong><br />
+<strong>RateLawful = 2.0</strong><br />
+<strong>#友好倍率</strong><br />
+<strong>RateKarma = 3.0</strong><br />
+<strong>#金幣倍率</strong><br />
+<strong>RateDropAdena = 4.0</strong><br />
+<strong>#道具倍率</strong><br />
+<strong>RateDropItems = 4.0</strong><br />
+<strong>#武防倍率</strong><br />
+<strong>EnchantChanceWeapon = 33</strong><br />
+<strong>EnchantChanceArmor = 33</strong><br />
+                              </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 真。黑帝斯天堂</p>
+  </footer>
+</body>
+</html>

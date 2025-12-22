@@ -1,0 +1,55 @@
+<!-- FILE: beginner.html -->
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>新手簡易攻略 — 真。黑帝斯天堂</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      div.block{
+        border: 1px solid red;
+        width: 300px;
+        height: 300px;
+        background-image: url("./images/back.jpg");
+        background-repeat: no-repeat;
+        /* background-size: 80%; */
+        /* background-size: 100% 50%; */
+        /* background-size: 100px; */
+
+        /* 背景圖的寬或高其中一個會是 100%，
+           目的要能讓背景圖在元素內完整出現 */
+        /* background-size: contain; */
+
+        /*背景圖的寬或高其中一個會是 100%,
+          目的要能讓背景圖佔滿整個元素。*/
+        background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><h1>真。黑帝斯天堂</h1></div>
+    <nav class="nav">
+      <a href="index.html">遊戲首頁</a>
+      <a href="server.html">伺服器設定</a>
+      <a href="troubleshoot.html">問題排除</a>
+      <a href="beginner.html" class="active">新手簡易攻略</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>新手必讀快速上手</h2>
+    <div class="block">
+    </div>
+    <ol>
+      <li>練等購買練功區卷軸。</li>
+      <li>武器掉落購買寶區卷軸。</li>
+      <li>防具掉落購買團區卷軸。</li>
+      <li>挑戰BOSS購買奇岩一般BOSS卷、龍之門扉、BOSS館、新傲塔王、恐怖巴拉卡斯、沙蟲、闇龍。</li>
+    </ol>
+  </main>
+
+  <footer class="site-footer"><p>© 真。黑帝斯天堂</p></footer>
+</body>
+</html>

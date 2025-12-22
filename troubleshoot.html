@@ -1,0 +1,61 @@
+<!-- FILE: troubleshoot.html -->
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>問題排除 — 真黑帝斯天堂</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      div.block{
+        border: 1px solid red;
+        width: 300px;
+        height: 300px;
+        background-image: url("./images/back.jpg");
+        background-repeat: no-repeat;
+        /* background-size: 80%; */
+        /* background-size: 100% 50%; */
+        /* background-size: 100px; */
+
+        /* 背景圖的寬或高其中一個會是 100%，
+           目的要能讓背景圖在元素內完整出現 */
+        /* background-size: contain; */
+
+        /*背景圖的寬或高其中一個會是 100%,
+          目的要能讓背景圖佔滿整個元素。*/
+        background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><h1>真黑帝斯天堂</h1></div>
+    <nav class="nav">
+      <a href="index.html">遊戲簡介</a>
+      <a href="server.html">伺服器設定</a>
+      <a href="troubleshoot.html" class="active">問題排除</a>
+      <a href="beginner.html">新手簡易攻略</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>常見問題與排除步驟</h2>
+    <div class="block">
+    </div>
+    <section class="card">
+      <h3>無法連線</h3>
+      <p>排查清單：網路狀態 → 伺服器狀態頁 → 刪除快取 → 重新登入。</p>
+      <img src="https://via.placeholder.com/600x200?text=Connection+Troubleshoot" alt="無法連線佔位圖">
+    </section>
+
+    <section class="card">
+      <h3>道具遺失</h3>
+      <p>請先確認：是否在交易過程中丟失、是否被系統回收、是否有審核紀錄。若仍無法找回，請聯繫客服並提供交易紀錄。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 真黑帝斯天堂</p>
+  </footer>
+</body>
+</html>
